@@ -1,0 +1,119 @@
+.back-ground{
+    background-color: rgb(151, 120, 155);
+}
+.size-cl{
+    height: 500px;
+    width: 500px;
+}
+.mar{
+    margin-right: 20px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.par{
+    color:white;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.pars{
+    color: black;
+}
+.top{
+    display: flex;
+    justify-content: right;
+}
+.tp{
+    background-color: rgb(6, 244, 244);
+}
+.lg{
+    position: relative;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anime{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 100px;
+        top: 0px;
+    }
+    50%{
+        left: 100px;
+        top: 100px;
+    }
+    75%{
+        left: 0px;
+        top: 100px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+}
+.lo{
+    position: relative;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anime{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 100px;
+        top: 0px;
+    }
+    50%{
+        left: 100px;
+        top: 100px;
+    }
+    75%{
+        left: 0px;
+        top: 100px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+}
+.lo{
+    position: relative;
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anim{
+    0%{
+        right: 0px;
+        top: 0px;
+    }
+    25%{
+        right: 100px;
+        top: 0px;
+    }
+    50%{
+        right: 100px;
+        top: 100px;
+    }
+    75%{
+        right: 0px;
+        top: 100px;
+    }
+    100%{
+        right: 0px;
+        top: 0px;
+    }
+}
